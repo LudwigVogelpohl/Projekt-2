@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Ball{
+            border:3px solid red;
+            border-radius:1000px;
+            height:300px;
+            width:300px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background-color: white;
+            margin-left: 31%;
+        }
+
+        .img2{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width: 35px;
+            margin-right: 70px;
+        }
+
+        h1{
+            margin-left: 38%;
+        }
+        body{
+            
+            background-color: rgb(0, 0, 0);
+            color: red;
+            font-family: 'calibri';
+        }
+
+        .img{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width: 70px;
+        }
+
+        .container{
+            background-color: white;
+            width:230px;
+            border: 1px solid black;
+            margin-left: 35%;
+        }
+
+        .header{
+            border-bottom: 1px white 100%;
+            color: white;
+            border: 1px white;
+        }
+
+        button{
+            border: none;
+            border-radius: 5px;
+            width: 150px;
+            background-color: rgb(255, 0, 106);
+            height: 50px;
+            margin-left: 39%;
+        }
+
+      
+        #goal {
+    position: relative;
+  
+  }
+    </style>
+</head>
+<body>
+
+    <div><h1 class="header">Tor-simulator</h1></div>
+    <div class="Ball">
+
+<div >
+        <img  id="goal"class="img2" src="soccer-34898_1280.png" alt=""></div>
+        <div>
+
+            <img class="img" src="goal-147630_1280.png" alt="">
+
+        </div>
+    
+    </div>
+<br><br><br><br><br><br>
+    <div class="container">
+        <div>
+            <h2>Grün, Rot, Blau, Gelb</h2>
+            
+        </div>
+    </div><br><br>
+    <button onclick="goall()">Stopp!!!</button>
+    <script src="script.js"></script>
+</body>
+</html>
